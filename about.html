@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>E-GURU</title>
+
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+        <link rel="stylesheet" href="style.css">
+
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    </head>
+
+    <body>
+
+        <!-- Navigation -->
+        <nav>
+            <img src="images/logo.png" alt="">
+            <div class="navigation">
+                <ul>
+                    <i id="menu-close" class="fas fa-times"></i>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a class="active" href="about.html">About</a></li>
+                    <li><a href="course.html">Courses</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+                <img id="menu-btn" src="images/menu.png" alt="">
+            </div>
+        </nav>
+
+        <!-- Home -->
+        <section id="about-home">
+            <h2>"About E-GURU"</h2>
+        </section>
+
+        <section id="about-container">
+            <div class="about-img">
+                <img src="images/a.png" alt="">
+            </div>
+
+            <div class="about-text">
+                <h2>Welcome to E-GURU, enhance your skills with best online courses</h2>
+                <p>You can start and finish one of these popular courses in under a day - for free! Check out the list below..</p>
+                <div class="about-fe">
+                    <img src="images/fe1.png" alt="">
+                    <div class="fe-text">
+                        <h5>400+ Courses</h5>
+                        <p>You can complete one of these courses under our site</p>
+                    </div>
+                </div>
+                <div class="about-fe">
+                    <img src="images/fe2.png" alt="">
+                    <div class="fe-text">
+                        <h5>Lifetime Access</h5>
+                        <p>Enjoy an enduring learning experience with lifetime access to our courses</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- features -->
+        <section id="features">
+            <h1>Awesome features</h1>
+            <p>Dive into a world of learning excellence with E-GURU</p>
+            <div class="fea-base">
+                <div class="fea-box">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h3>Scholarship Facility</h3>
+                    <p>Fuel your educational aspirations with our exclusive scholarship facility.</p>
+                </div>
+                <div class="fea-box">
+                    <i class="fas fa-file-certificate"></i>
+                    <h3>Get Courses</h3>
+                    <p>Explore and buy courses tailored to your interests and aspirations.</p>
+                </div>
+                <div class="fea-box">
+                    <i class="fas fa-award"></i>
+                    <h3>Global Certifications</h3>
+                    <p>Boost your career by earning globally recognized certifications.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Trusted by -->
+        <section id="trust">
+            <h1>Trusted By</h1>
+            <p>Our platform "E-GURU" is trusted by thousands, fostering a culture of excellence and achievement in online education</p>
+            <div class="trust-img">
+                <img src="images/trust (1).png" alt="">
+                <img src="images/trust (2).png" alt="">
+                <img src="images/trust (3).png" alt="">
+                <img src="images/trust (4).png" alt="">
+                <img src="images/trust (5).png" alt="">
+                <img src="images/trust (6).png" alt="">
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer-col">
+                <h3>Top Products</h3>
+                <li>Manage Reputation</li>
+                <li>Power Tools</li>
+                <li>Managed Website</li>
+                <li>Marketing Service</li>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <li>Jobs</li>
+                <li>Brand Assets</li>
+                <li>Investor relations</li>
+                <li>Terms of Service</li>
+            </div>
+            <div class="footer-col">
+                <h3>Features</h3>
+                <li>Manage Reputation</li>
+                <li>Power Tools</li>
+                <li>Managed Website</li>
+                <li>Marketing Service</li>
+            </div>
+            <div class="footer-col">
+                <h3>Resources</h3>
+                <li>Guide</li>
+                <li>Research</li>
+                <li>Experts</li>
+                <li>Marketing Service</li>
+            </div>
+
+            <div class="footer-col">
+                <h3>Newsletter</h3>
+                <p>You can trust us, we only send promo offers.</p>
+                <div class="subscribe">
+                    <input type="text" placeholder="Your Email address">
+                    <a href="#" class="yellow">SUBSCRIBE</a>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>Copyright ©2024 All rights reserved | This template is made by Keshvi</p>
+                <div class="pro-links">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                </div>
+            </div>
+        </footer>
+
+        <script>
+
+            // Navaigation Bar
+            $('#menu-btn').click(function() {
+                $('nav .navigation ul').addClass('active')
+            });
+            $('#menu-close').click(function() {
+                $('nav .navigation ul').removeClass('active')
+            });
+
+        </script>
+
+
+    </body>
+
+</html>
